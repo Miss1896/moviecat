@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 豆瓣电影项目 - 项目计划
 
 ## 项目描述
@@ -55,3 +56,6 @@
 - .gitignore git忽略文件
 - gulpfile.js gulp的文件
 - package.json npm自动生成的一个文件
+=======
+# moviecat
+>>>>>>> b4ca8041b167b94bd85b3b6a37472a20ebc4996b
