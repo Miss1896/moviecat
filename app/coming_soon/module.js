@@ -15,7 +15,7 @@
             method:'GET',
             url:'./coming_soon/data.json'
         }).then(function(response){
-            console.log(response);
+            // console.log(response);
             $scope.movie = response.data;
         },function(){
 

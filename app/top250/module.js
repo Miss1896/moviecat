@@ -3,7 +3,7 @@
  */
 (function(angular){
 
-    angular.module('moivecatTop250',['ngRoute']).config(['$routeProvider',function($routeProvider){
+    angular.module('moviecatTop250',['ngRoute']).config(['$routeProvider',function($routeProvider){
 
         $routeProvider.when('/top250',{
             templateUrl:'./top250/view.html',
@@ -16,7 +16,7 @@
             method:'GET',
             url:'./top250/data.json'
         }).then(function(response){
-            console.log(123);
+            // console.log(123);
             $scope.movie = response.data;
         },function(){
 

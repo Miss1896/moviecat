@@ -6,7 +6,8 @@
         'moviecat.home',
         'moviecat.in_theaters',
         'moviecat.coming_soon',
-        'moivecatTop250'
+        'moviecatTop250',
+        'moviecat.jsonp'
     ]);
 
 })(angular);
