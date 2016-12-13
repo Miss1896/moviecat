@@ -14,12 +14,16 @@
         $scope.pageSize = 5;
         $scope.curPage = $routeParams.page || 1;
         var start = ($scope.curPage - 1) * $scope.pageSize ;
+        $scope.curActive = $routeParams.movieType;
 
         itcastJSONP.jsonp('http://api.douban.com/v2/movie/'+$routeParams.movieType,
             {start:start,count:$scope.pageSize},
             function(data){
                 $scope.movie = data;
-                // console.log(data);
+                // $scope.curActive = $routeParams.movieType;
+                // $scope.active = 'active';
+                console.log($scope.curActive);
+                console.log($scope.curActive == 'in_theaters');
                 $scope.totalPages = Math.ceil(data.total / $scope.pageSize);
                 $scope.$apply();
         });
