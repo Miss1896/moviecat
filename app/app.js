@@ -4,9 +4,10 @@
     // start your ride
     angular.module('moviecat',[
         'moviecat.home',
-        'moviecat.in_theaters',
-        'moviecat.coming_soon',
-        'moviecatTop250',
+        'moviecat.movielist',
+        // 'moviecat.in_theaters',
+        // 'moviecat.coming_soon',
+        // 'moviecatTop250',
         'moviecat.jsonp'
     ]);
 

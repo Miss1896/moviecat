@@ -12,7 +12,7 @@
 
 			$window[cbName] = function(data){
 				callback(data);
-				console.log(url)
+				// console.log(url)
 			}
 
 			var script = doc.createElement('script');
