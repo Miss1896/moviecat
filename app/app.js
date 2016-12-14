@@ -3,7 +3,9 @@
 
     // start your ride
     angular.module('moviecat',[
-        'moviecat.home'       
+        'moviecat.home',
+        'moviecat.movielist',
+        'moviecat.jsonp'    
     ]);
 
 })(angular);
