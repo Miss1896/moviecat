@@ -21,10 +21,10 @@
         <nav class="nav">
             <ul>
                 <!--li中添加 active 类样式，显示焦点状态。-->
-                <li class="active"><a href="#/home_page">首页</a></li>
-                <li ng-class="{active:curActive == 'in_theaters'}"><a href="#/in_theaters">正在热映</a></li>
-                <li class="{{curActive == 'coming_soon'?'active':0}}"><a href="#/coming_soon">即将上映</a></li>
-                <li><a href="#/top250">Top250</a></li>
+                <li auto-active><a href="#/home_page">首页</a></li>
+                <li auto-active><a href="#/in_theaters">正在热映</a></li>
+                <li auto-active><a href="#/coming_soon">即将上映</a></li>
+                <li auto-active><a href="#/top250">Top250</a></li>
             </ul>
         </nav>
     </div>
@@ -80,6 +80,7 @@
     <script src="top250/module.js"></script> -->
     <script src="movie_list/module.js"></script>
     <script src="common/JSONP.js"></script>
+    <script src="common/autoActive.js"></script>
 </body>
 
 </html>
