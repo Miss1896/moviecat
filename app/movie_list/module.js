@@ -17,7 +17,8 @@
 			'http://api.douban.com/v2/movie/'+ $routeParams.movieType,
 			{
 				start:start,
-				count:$scope.pageSize
+				count:$scope.pageSize,
+				q:$routeParams.q
 			},
 			function(data){
 				$scope.totalPages = Math.ceil(data.total / $scope.pageSize);
