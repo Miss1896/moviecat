@@ -1,0 +1,1 @@
+!function(t){t.module("moviecat.autoActive",[]).directive("autoActive",["$location",function(t){return{link:function(n,i){n.location=t,n.$watch("location.url()",function(t){var n=i.children().attr("href");n.indexOf(t)>-1&&(console.log(i),i.parent().children().removeClass("active"),i.addClass("active"))})}}}])}(angular);

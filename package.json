@@ -1,15 +1,33 @@
 {
-  "name": "moviecat-app",
+  "name": "moviecat-app-gulp",
   "version": "1.0.0",
-  "description": "- 电影网站，用于分类展示电影简要信息，亦可查询查看详细信息\r - 数据来源：豆瓣电影API",
+  "description": "<<<<<<< HEAD\r # 豆瓣电影项目 - 项目计划",
   "main": "gulpfile.js",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.6.0",
+    "browser-sync": "^2.18.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-less": "^3.3.0",
+    "gulp-uglify": "^2.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miss1896/moviecat.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "angular": "^1.5.8",
-    "angular-route": "^1.5.8"
-  }
+  "bugs": {
+    "url": "https://github.com/Miss1896/moviecat/issues"
+  },
+  "homepage": "https://github.com/Miss1896/moviecat#readme"
 }
